@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEA3EE5D1CDE857B002EDB8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA3EE5C1CDE857B002EDB8D /* AppDelegate.swift */; };
+		BEA3EE5F1CDE857B002EDB8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA3EE5E1CDE857B002EDB8D /* ViewController.swift */; };
+		BEA3EE621CDE857B002EDB8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA3EE601CDE857B002EDB8D /* Main.storyboard */; };
+		BEA3EE641CDE857B002EDB8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA3EE631CDE857B002EDB8D /* Assets.xcassets */; };
+		BEA3EE671CDE857B002EDB8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA3EE651CDE857B002EDB8D /* LaunchScreen.storyboard */; };
+		BEA3EE721CDE857B002EDB8D /* MojoTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA3EE711CDE857B002EDB8D /* MojoTrackerTests.swift */; };
+		BEA3EE7D1CDE857B002EDB8D /* MojoTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA3EE7C1CDE857B002EDB8D /* MojoTrackerUITests.swift */; };
+		BEA3EE8D1CDE862D002EDB8D /* PrimaryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEA3EE8C1CDE862D002EDB8D /* PrimaryView.xib */; };
+		BEA3EE8F1CDE8640002EDB8D /* TagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEA3EE8E1CDE8640002EDB8D /* TagView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEA3EE6E1CDE857B002EDB8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA3EE511CDE857B002EDB8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA3EE581CDE857B002EDB8D;
+			remoteInfo = MojoTracker;
+		};
+		BEA3EE791CDE857B002EDB8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA3EE511CDE857B002EDB8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA3EE581CDE857B002EDB8D;
+			remoteInfo = MojoTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEA3EE591CDE857B002EDB8D /* MojoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MojoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA3EE5C1CDE857B002EDB8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEA3EE5E1CDE857B002EDB8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEA3EE611CDE857B002EDB8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEA3EE631CDE857B002EDB8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEA3EE661CDE857B002EDB8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEA3EE681CDE857B002EDB8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA3EE6D1CDE857B002EDB8D /* MojoTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MojoTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA3EE711CDE857B002EDB8D /* MojoTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojoTrackerTests.swift; sourceTree = "<group>"; };
+		BEA3EE731CDE857B002EDB8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA3EE781CDE857B002EDB8D /* MojoTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MojoTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA3EE7C1CDE857B002EDB8D /* MojoTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MojoTrackerUITests.swift; sourceTree = "<group>"; };
+		BEA3EE7E1CDE857B002EDB8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA3EE8C1CDE862D002EDB8D /* PrimaryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PrimaryView.xib; path = ../PrimaryView.xib; sourceTree = "<group>"; };
+		BEA3EE8E1CDE8640002EDB8D /* TagView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TagView.xib; path = ../TagView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEA3EE561CDE857B002EDB8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA3EE6A1CDE857B002EDB8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA3EE751CDE857B002EDB8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEA3EE501CDE857B002EDB8D = {
+			isa = PBXGroup;
+			children = (
+				BEA3EE5B1CDE857B002EDB8D /* MojoTracker */,
+				BEA3EE701CDE857B002EDB8D /* MojoTrackerTests */,
+				BEA3EE7B1CDE857B002EDB8D /* MojoTrackerUITests */,
+				BEA3EE5A1CDE857B002EDB8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEA3EE5A1CDE857B002EDB8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEA3EE591CDE857B002EDB8D /* MojoTracker.app */,
+				BEA3EE6D1CDE857B002EDB8D /* MojoTrackerTests.xctest */,
+				BEA3EE781CDE857B002EDB8D /* MojoTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEA3EE5B1CDE857B002EDB8D /* MojoTracker */ = {
+			isa = PBXGroup;
+			children = (
+				BEA3EE8E1CDE8640002EDB8D /* TagView.xib */,
+				BEA3EE8C1CDE862D002EDB8D /* PrimaryView.xib */,
+				BEA3EE5C1CDE857B002EDB8D /* AppDelegate.swift */,
+				BEA3EE5E1CDE857B002EDB8D /* ViewController.swift */,
+				BEA3EE601CDE857B002EDB8D /* Main.storyboard */,
+				BEA3EE631CDE857B002EDB8D /* Assets.xcassets */,
+				BEA3EE651CDE857B002EDB8D /* LaunchScreen.storyboard */,
+				BEA3EE681CDE857B002EDB8D /* Info.plist */,
+			);
+			path = MojoTracker;
+			sourceTree = "<group>";
+		};
+		BEA3EE701CDE857B002EDB8D /* MojoTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA3EE711CDE857B002EDB8D /* MojoTrackerTests.swift */,
+				BEA3EE731CDE857B002EDB8D /* Info.plist */,
+			);
+			path = MojoTrackerTests;
+			sourceTree = "<group>";
+		};
+		BEA3EE7B1CDE857B002EDB8D /* MojoTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA3EE7C1CDE857B002EDB8D /* MojoTrackerUITests.swift */,
+				BEA3EE7E1CDE857B002EDB8D /* Info.plist */,
+			);
+			path = MojoTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEA3EE581CDE857B002EDB8D /* MojoTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA3EE811CDE857B002EDB8D /* Build configuration list for PBXNativeTarget "MojoTracker" */;
+			buildPhases = (
+				BEA3EE551CDE857B002EDB8D /* Sources */,
+				BEA3EE561CDE857B002EDB8D /* Frameworks */,
+				BEA3EE571CDE857B002EDB8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MojoTracker;
+			productName = MojoTracker;
+			productReference = BEA3EE591CDE857B002EDB8D /* MojoTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEA3EE6C1CDE857B002EDB8D /* MojoTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA3EE841CDE857B002EDB8D /* Build configuration list for PBXNativeTarget "MojoTrackerTests" */;
+			buildPhases = (
+				BEA3EE691CDE857B002EDB8D /* Sources */,
+				BEA3EE6A1CDE857B002EDB8D /* Frameworks */,
+				BEA3EE6B1CDE857B002EDB8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA3EE6F1CDE857B002EDB8D /* PBXTargetDependency */,
+			);
+			name = MojoTrackerTests;
+			productName = MojoTrackerTests;
+			productReference = BEA3EE6D1CDE857B002EDB8D /* MojoTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEA3EE771CDE857B002EDB8D /* MojoTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA3EE871CDE857B002EDB8D /* Build configuration list for PBXNativeTarget "MojoTrackerUITests" */;
+			buildPhases = (
+				BEA3EE741CDE857B002EDB8D /* Sources */,
+				BEA3EE751CDE857B002EDB8D /* Frameworks */,
+				BEA3EE761CDE857B002EDB8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA3EE7A1CDE857B002EDB8D /* PBXTargetDependency */,
+			);
+			name = MojoTrackerUITests;
+			productName = MojoTrackerUITests;
+			productReference = BEA3EE781CDE857B002EDB8D /* MojoTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEA3EE511CDE857B002EDB8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Haroon Rasheed";
+				TargetAttributes = {
+					BEA3EE581CDE857B002EDB8D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BEA3EE6C1CDE857B002EDB8D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BEA3EE581CDE857B002EDB8D;
+					};
+					BEA3EE771CDE857B002EDB8D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BEA3EE581CDE857B002EDB8D;
+					};
+				};
+			};
+			buildConfigurationList = BEA3EE541CDE857B002EDB8D /* Build configuration list for PBXProject "MojoTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEA3EE501CDE857B002EDB8D;
+			productRefGroup = BEA3EE5A1CDE857B002EDB8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEA3EE581CDE857B002EDB8D /* MojoTracker */,
+				BEA3EE6C1CDE857B002EDB8D /* MojoTrackerTests */,
+				BEA3EE771CDE857B002EDB8D /* MojoTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEA3EE571CDE857B002EDB8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA3EE671CDE857B002EDB8D /* LaunchScreen.storyboard in Resources */,
+				BEA3EE8F1CDE8640002EDB8D /* TagView.xib in Resources */,
+				BEA3EE641CDE857B002EDB8D /* Assets.xcassets in Resources */,
+				BEA3EE621CDE857B002EDB8D /* Main.storyboard in Resources */,
+				BEA3EE8D1CDE862D002EDB8D /* PrimaryView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA3EE6B1CDE857B002EDB8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA3EE761CDE857B002EDB8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEA3EE551CDE857B002EDB8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA3EE5F1CDE857B002EDB8D /* ViewController.swift in Sources */,
+				BEA3EE5D1CDE857B002EDB8D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA3EE691CDE857B002EDB8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA3EE721CDE857B002EDB8D /* MojoTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA3EE741CDE857B002EDB8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA3EE7D1CDE857B002EDB8D /* MojoTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEA3EE6F1CDE857B002EDB8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA3EE581CDE857B002EDB8D /* MojoTracker */;
+			targetProxy = BEA3EE6E1CDE857B002EDB8D /* PBXContainerItemProxy */;
+		};
+		BEA3EE7A1CDE857B002EDB8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA3EE581CDE857B002EDB8D /* MojoTracker */;
+			targetProxy = BEA3EE791CDE857B002EDB8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEA3EE601CDE857B002EDB8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA3EE611CDE857B002EDB8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEA3EE651CDE857B002EDB8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA3EE661CDE857B002EDB8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEA3EE7F1CDE857B002EDB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEA3EE801CDE857B002EDB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEA3EE821CDE857B002EDB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MojoTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haroonr.student.MojoTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEA3EE831CDE857B002EDB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MojoTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haroonr.student.MojoTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BEA3EE851CDE857B002EDB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MojoTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haroonr.student.MojoTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MojoTracker.app/MojoTracker";
+			};
+			name = Debug;
+		};
+		BEA3EE861CDE857B002EDB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MojoTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haroonr.student.MojoTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MojoTracker.app/MojoTracker";
+			};
+			name = Release;
+		};
+		BEA3EE881CDE857B002EDB8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MojoTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haroonr.student.MojoTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MojoTracker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BEA3EE891CDE857B002EDB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MojoTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haroonr.student.MojoTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MojoTracker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEA3EE541CDE857B002EDB8D /* Build configuration list for PBXProject "MojoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA3EE7F1CDE857B002EDB8D /* Debug */,
+				BEA3EE801CDE857B002EDB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA3EE811CDE857B002EDB8D /* Build configuration list for PBXNativeTarget "MojoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA3EE821CDE857B002EDB8D /* Debug */,
+				BEA3EE831CDE857B002EDB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEA3EE841CDE857B002EDB8D /* Build configuration list for PBXNativeTarget "MojoTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA3EE851CDE857B002EDB8D /* Debug */,
+				BEA3EE861CDE857B002EDB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEA3EE871CDE857B002EDB8D /* Build configuration list for PBXNativeTarget "MojoTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA3EE881CDE857B002EDB8D /* Debug */,
+				BEA3EE891CDE857B002EDB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEA3EE511CDE857B002EDB8D /* Project object */;
+}
